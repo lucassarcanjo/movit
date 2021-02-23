@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import ExperienceBar from "./components/ExperienceBar";
 
-function App() {
+import "./styles/global.css";
+import "@fontsource/inter";
+
+const App = () => {
   return (
-    <div className="App">
-      Hello world!
+    <div className="container">
+      <ExperienceBar currentExperience={400} />
     </div>
   );
-}
+};
 
 export default App;
