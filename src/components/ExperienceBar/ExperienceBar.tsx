@@ -1,5 +1,4 @@
 import React, { useMemo } from "react";
-import "./ExperienceBar.css";
 
 interface Props {
   minExperience?: number;
