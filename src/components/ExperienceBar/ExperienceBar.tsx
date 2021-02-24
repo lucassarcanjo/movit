@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import styles from "./ExperienceBar.module.css";
 
 interface Props {
   minExperience?: number;
@@ -17,11 +18,11 @@ const ExperienceBar: React.FC<Props> = ({
   }, [currentExperience, maxExperience, minExperience]);
 
   return (
-    <header className="experience-bar">
+    <header className={styles.experienceBar}>
       <span>{minExperience} xp</span>
       <div>
         <div style={{ width: `${currentProgressBarWidth}%` }} />
-        <span className="current-experience" style={{ left: "50%" }}>
+        <span className={styles.currentExperience} style={{ left: "50%" }}>
           {currentExperience} xp
         </span>
       </div>

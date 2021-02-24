@@ -44,6 +44,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.2.1.tgz#f91177509d4616488c92a137cd77f197ab366078"
   integrity sha512-zIE1066du7y3LLL4V3Ot4BgwE3XC3MbmTBJYG7alAuXUuPGVr/2Mmt+BG9rp4ucF5An+iwZ1HcdS8CQnapMcRw==
 
+"@fontsource/rajdhani@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/rajdhani/-/rajdhani-4.2.1.tgz#24d84241b28d5b34939a4d58c2052b53d1892564"
+  integrity sha512-Kttqcaaq/O4bS15uiWe1+YrlTuxDK49GvaPFp4x8j9XKRZucpgGMeJDxQtlxZDDkjRTCJ2ZU4gzeEzQKVC41uQ==
+
 "@hapi/accept@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.1.tgz#068553e867f0f63225a506ed74e899441af53e10"

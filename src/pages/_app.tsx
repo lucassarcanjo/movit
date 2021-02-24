@@ -1,5 +1,6 @@
 import "../styles/global.css";
 import "@fontsource/inter";
+import "@fontsource/rajdhani";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
